@@ -1,0 +1,41 @@
+.box-holder {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  gap: 20px;
+  max-width: 1140px;
+}
+
+.btn {
+  display: inline-block;
+  background-color:blue;
+  border: 15px 15px solid;
+  border-radius:15px;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 21px;
+  max-width: 60px;
+}
+
+.gallery-buttons {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 40px;
+  padding-top:110px;
+  padding-bottom:170px;
+}
+
+.gallery {
+  display: none;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 25px;
+}
+
+.gallery img {
+  width: 100%;
+}
